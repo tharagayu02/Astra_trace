@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#0d1224"/>
+      <stop offset="35%" stop-color="#070b16"/>
+      <stop offset="68%" stop-color="#030509"/>
+      <stop offset="100%" stop-color="#010204"/>
+    </radialGradient>
+    <radialGradient id="nebula1" cx="40%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#af8cfd" stop-opacity="0.42"/>
+      <stop offset="35%" stop-color="#6d5cff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#b2d4ff" stop-opacity="0.24"/>
+      <stop offset="30%" stop-color="#8e7efc" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ring" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffe3a1"/>
+      <stop offset="20%" stop-color="#f0b6ff"/>
+      <stop offset="48%" stop-color="#8bb8ff"/>
+      <stop offset="100%" stop-color="#20142d"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="35"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <rect width="1600" height="1100" fill="transparent"/>
+
+  <g opacity="0.9">
+    <ellipse cx="380" cy="280" rx="420" ry="260" fill="url(#nebula1)" filter="url(#blur1)"/>
+    <ellipse cx="1120" cy="210" rx="540" ry="260" fill="url(#nebula2)" filter="url(#blur1)"/>
+    <ellipse cx="990" cy="760" rx="450" ry="220" fill="url(#nebula1)" filter="url(#blur1)" opacity="0.5"/>
+  </g>
+
+  <g fill="#f8faff">
+    <circle cx="145" cy="106" r="1.5"/>
+    <circle cx="228" cy="210" r="1.1"/>
+    <circle cx="311" cy="122" r="1.2"/>
+    <circle cx="430" cy="97" r="1.6"/>
+    <circle cx="518" cy="249" r="1.3"/>
+    <circle cx="630" cy="148" r="1.1"/>
+    <circle cx="678" cy="110" r="1.4"/>
+    <circle cx="808" cy="170" r="1.3"/>
+    <circle cx="925" cy="125" r="1.5"/>
+    <circle cx="1020" cy="92" r="1.2"/>
+    <circle cx="1188" cy="138" r="1.4"/>
+    <circle cx="1340" cy="72" r="1.7"/>
+    <circle cx="1428" cy="185" r="1.2"/>
+    <circle cx="1540" cy="108" r="1.5"/>
+    <circle cx="204" cy="325" r="1.4"/>
+    <circle cx="308" cy="430" r="1.4"/>
+    <circle cx="420" cy="355" r="1.3"/>
+    <circle cx="584" cy="420" r="1.3"/>
+    <circle cx="729" cy="312" r="1.4"/>
+    <circle cx="921" cy="388" r="1.3"/>
+    <circle cx="1118" cy="306" r="1.6"/>
+    <circle cx="1308" cy="430" r="1.4"/>
+    <circle cx="1456" cy="372" r="1.2"/>
+    <circle cx="120" cy="552" r="1.3"/>
+    <circle cx="268" cy="624" r="1.4"/>
+    <circle cx="380" cy="618" r="1.5"/>
+    <circle cx="520" cy="700" r="1.2"/>
+    <circle cx="710" cy="648" r="1.4"/>
+    <circle cx="835" cy="760" r="1.3"/>
+    <circle cx="995" cy="618" r="1.4"/>
+    <circle cx="1140" cy="690" r="1.4"/>
+    <circle cx="1315" cy="730" r="1.5"/>
+    <circle cx="1472" cy="826" r="1.3"/>
+    <circle cx="120" cy="930" r="1.7"/>
+    <circle cx="312" cy="980" r="1.3"/>
+    <circle cx="438" cy="872" r="1.2"/>
+    <circle cx="628" cy="960" r="1.5"/>
+    <circle cx="780" cy="930" r="1.2"/>
+    <circle cx="965" cy="1008" r="1.6"/>
+    <circle cx="1120" cy="910" r="1.3"/>
+    <circle cx="1318" cy="940" r="1.4"/>
+    <circle cx="1498" cy="1012" r="1.5"/>
+  </g>
+
+  <g opacity="0.65" fill="#d5d7ff">
+    <circle cx="132" cy="182" r="2.2"/>
+    <circle cx="288" cy="200" r="2.4"/>
+    <circle cx="435" cy="162" r="2.1"/>
+    <circle cx="702" cy="214" r="2.5"/>
+    <circle cx="1098" cy="184" r="2.1"/>
+    <circle cx="1418" cy="240" r="2.2"/>
+    <circle cx="246" cy="544" r="2.4"/>
+    <circle cx="610" cy="546" r="2.2"/>
+    <circle cx="876" cy="514" r="2.1"/>
+    <circle cx="1260" cy="548" r="2.5"/>
+    <circle cx="1482" cy="646" r="2.2"/>
+    <circle cx="416" cy="786" r="2.1"/>
+    <circle cx="832" cy="852" r="2.4"/>
+    <circle cx="1202" cy="844" r="2.2"/>
+  </g>
+
+  <g opacity="0.8">
+    <path d="M 1250 186 L 1384 130" stroke="#f3f7ff" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 1368 250 L 1526 180" stroke="#d9dcff" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M 1160 830 L 1314 778" stroke="#f4f7ff" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.8" fill="#f9fafc">
+    <circle cx="1320" cy="260" r="2.4"/>
+    <circle cx="1328" cy="252" r="2"/>
+    <circle cx="1338" cy="270" r="1.7"/>
+  </g>
+
+  <g transform="translate(0, 0)" opacity="0.4">
+    <circle cx="110" cy="822" r="4" fill="#dbe3ff"/>
+    <circle cx="180" cy="860" r="3" fill="#dbe3ff"/>
+    <circle cx="242" cy="806" r="2.5" fill="#dbe3ff"/>
+    <circle cx="650" cy="868" r="3.5" fill="#dbe3ff"/>
+    <circle cx="820" cy="777" r="2.5" fill="#dbe3ff"/>
+    <circle cx="920" cy="840" r="3" fill="#dbe3ff"/>
+  </g>
+</svg>
